@@ -7,6 +7,7 @@ RUN \
   apt-get update && \
   apt-get install -yqq apt-transport-https && \
   apt-get install -y \
+    alsa-utils \
     libgtk2.0-0 \
     libnotify-dev \
     libgconf-2-4 \
