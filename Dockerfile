@@ -1,4 +1,4 @@
-FROM python:stretch
+FROM python:3.6-stretch
 
 # Install node prereqs, nodejs and yarn
 # Ref: https://deb.nodesource.com/setup_10.x
