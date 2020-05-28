@@ -26,5 +26,4 @@ RUN \
   apt-get update && \
   apt-get install -yqq nodejs yarn && \
   pip install -U pip && pip install pipenv && \
-  npm i -g npm@^6 && \
   rm -rf /var/lib/apt/lists/*
